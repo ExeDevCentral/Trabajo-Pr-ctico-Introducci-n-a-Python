@@ -1,50 +1,50 @@
-# 🧠 Trabajo Práctico: Introducción a Python & Portal Estudiante Plus 🚀
+<div align="center">
 
-Repositorio para el primer trabajo práctico de Python, que incluye los ejercicios base y una herramienta avanzada para estudiantes.
+# Python Foundations & Portal Estudiante Plus
+### *Academic Algorithmic Exercises, Terminal UI Utilities & Academic Productivity Suite*
 
----
+[![Python: 3.8+](https://img.shields.io/badge/Python-3.8%2B_Standard_Library-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![Zero Dependencies](https://img.shields.io/badge/Dependencies-Zero_External-success?style=for-the-badge)](https://docs.python.org/3/library/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
-## 📌 Contenido del Repositorio
+<p align="center">
+  A structured Python learning repository pairing foundational computer science exercises (string operations, conditionals, loops, data structures) with "Portal Estudiante Plus", a modular CLI productivity tool for students.
+</p>
 
-### 1. [trabajo_practico_01.py](trabajo_practico_01.py)
-Contiene la resolución de los 7 ejercicios iniciales propuestos:
-- Variables y datos.
-- Entrada y salida.
-- Operaciones matemáticas.
-- Condicionales.
-- Bucles.
-- **Bonus**: Generador de tablas de multiplicar.
-
-### 2. [portal_estudiante.py](portal_estudiante.py)
-Una evolución del trabajo práctico convertida en un toolkit para estudiantes que incluye:
-- **📊 Gestor de Notas**: Cálculo de promedios y estado académico (Promoción/Regular/Libre).
-- **⏱️ Temporizador Pomodoro**: Reloj en tiempo real para sesiones de estudio.
-- **📝 Agenda de Tareas**: Listado de pendientes académicos.
+</div>
 
 ---
 
-## 🛠️ Cómo Ejecutar
+## 🎯 Included Tooling & Modules
 
-Asegúrate de tener Python 3 instalado en tu sistema.
+- **Portal Estudiante Plus (`portal_estudiante.py`):**
+  - **Pomodoro Focus Timer:** 25-minute focus intervals with clean terminal countdown.
+  - **GPA / Average Calculator:** Weighted and arithmetic average calculations with passing grade feedback.
+  - **Interactive Flashcards:** Memorization flashcard review system.
+  - **Task Checklist:** Dynamic in-session student task list.
+- **Curriculum Exercises (`trabajo_practico_01.py`):**
+  - String manipulation, casting, and formatted terminal outputs.
+  - Logic structures and arithmetic processing.
 
-### Ejecutar el TP 01:
+---
+
+## 🚀 Quickstart & Execution
+
 ```bash
-python trabajo_practico_01.py
+# Clone the repository
+git clone https://github.com/ExeDevCentral/Trabajo-Pr-ctico-Introducci-n-a-Python.git
+cd Trabajo-Pr-ctico-Introducci-n-a-Python
+
+# Launch the Student Portal
+python3 portal_estudiante.py
+
+# Run foundational exercise suite
+python3 trabajo_practico_01.py
 ```
 
-### Ejecutar el Portal Estudiante Plus:
-```bash
-python portal_estudiante.py
-```
-
 ---
 
-## 🚀 Características del código
-- **Modularidad**: Cada ejercicio y módulo está separado por funciones.
-- **UX en Terminal**: Uso de banners ASCII, limpieza de pantalla y navegación intuitiva.
-- **Robusto**: Manejo básico de errores para entradas inválidas y división por cero.
+## 👨‍💻 Author
 
----
-
-**Autor:** [ExeDevCentral](https://github.com/ExeDevCentral)
-**Fecha:** Abril 2026
+**Exequiel Echevarria**
+- GitHub: [@ExeDevCentral](https://github.com/ExeDevCentral)
